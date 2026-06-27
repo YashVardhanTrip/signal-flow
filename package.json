@@ -1,0 +1,12 @@
+{
+  "name": "signal-flow",
+  "version": "1.0.0",
+  "description": "Real-time signal processing pipeline",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/run.js",
+    "postinstall": "node src/init.js"
+  },
+  "dependencies": { "express": "^4.18.2" }
+}
